@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Цитаты на каждый день</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <div class="container">
+        <h1>Цитаты на каждый день</h1>
+        
+        <select id="authorSelect">
+            <option value="all">Все исполнители</option>
+            <option value="Pyrokinesis">Pyrokinesis</option>
+            <option value="Playingtheangel">Playingtheangel</option>
+            <option value="Mzlff">Mzlff</option>
+            </select>
+
+        <div id="quoteDisplay">
+            <p id="quoteText">Нажми на кнопку, чтобы получить цитату на день</p>
+            <p id="quoteTrack"></p>
+            <div id="spotifyPlayerContainer" style="margin-top: 20px;"></div>
+        </div>
+
+        <button id="quoteBtn">Получить цитату</button>
+        <p id="timer"></p>
+        <span>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
