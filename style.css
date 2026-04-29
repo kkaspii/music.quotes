@@ -120,3 +120,44 @@ button:active {
     from { opacity: 0; transform: translateY(20); }
     to { opacity: 1; transform: translateY(0);}
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 92%;
+        padding: 20px 15px; 
+        border-radius: 20px; 
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #quoteText {
+        font-size: 16px; 
+        line-height: 1.3;
+        min-height: auto;
+        margin-bottom: 8px;
+    }
+
+    #quoteTrack {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    select {
+        padding: 10px;
+        font-size: 15px; 
+        margin-bottom: 15px;
+    }
+
+    #spotifyPlayerContainer {
+        min-height: 80px;
+        margin-bottom: 15px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 14px; 
+    }
+}
