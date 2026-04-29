@@ -6,6 +6,14 @@
 }
 
 body {
+    height: 100dvh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url('purple banner.jpg');
     background-size: cover;
@@ -23,6 +31,7 @@ body {
 .container {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur (15px);
     padding: 40px;
     border-radius: 20px;
     
@@ -52,6 +61,7 @@ select {
     border: none;
     border-radius: 8px;
     margin-bottom: 20px;
+    font-size: 16px;
     cursor: pointer;
     outline: none;
 }
